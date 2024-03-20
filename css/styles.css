@@ -22,7 +22,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* hola */
 }
 
 
@@ -69,7 +68,7 @@ form{
 /* Estilos para el elemento <body> */
 body{
     /* Establece la imagen de fondo */
-    background-image: url(../imagenes/img-fondo.jpg); 
+    /* background-image: url(../imagenes/img-fondo.jpg);  */
     /* Usa la fuente 'cuerpo' */
     font-family: 'cuerpo';
     /* Establece el color del texto a #E33B1A */
