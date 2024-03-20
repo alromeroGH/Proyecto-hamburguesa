@@ -1,0 +1,150 @@
+/* Define una nueva fuente llamada 'titulos' */
+@font-face {
+    /* Nombre de la fuente */
+    font-family: 'titulos';
+    /* Ruta al archivo de la fuente */
+    src: url(../fuentes/Pacifico/Pacifico-Regular.ttf);
+}
+
+/* Define una nueva fuente llamada 'cuerpo' */
+@font-face {
+    /* Nombre de la fuente */
+    font-family: 'cuerpo';
+    /* Ruta al archivo de la fuente */
+    src: url(../fuentes/Madimi_One/MadimiOne-Regular.ttf);
+}
+
+/* Establece un estilo base para todos los elementos del documento HTML.
+   Esto asegura que no haya márgenes ni rellenos predeterminados que puedan afectar el diseño.
+   La propiedad 'box-sizing: border-box;' garantiza que el ancho y la altura especificados incluyan el relleno y el borde, 
+   pero no el margen, lo que facilita el diseño consistente y predecible. */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos para el menú de navegación superior */
+.superior {
+    background-color: #DD1C2D; /* Establece el color de fondo del menú de navegación a rojo */
+    width: 100%; /* Ajusta el ancho del menú de navegación al 100% del contenedor padre */
+    margin: 0; /* Asegúrate de que no haya márgenes en el menú de navegación */
+    padding: 0; /* Asegúrate de que no haya relleno en el menú de navegación */
+    /* Fija el menú de navegación en la parte superior de la ventana del navegador */
+    position: fixed; 
+    top: 0;
+    /* Asegúrate de que el menú de navegación esté por encima del resto del contenido */
+    z-index: 1000; 
+    display: flex; /* Cambia a flexbox */
+    justify-content: space-between; /* Coloca los elementos a los extremos */
+}
+
+/* Estilos para los encabezados <h1> */
+h1{
+    /* Usa la fuente 'titulos' */
+    font-family: 'titulos';
+    /* Establece el color del texto a #E11D33 */
+    color: #CB2F3D;
+    margin: 58px 0px 0px 20px; /* Margen superior, derecho, inferior, izquierdo */
+}
+
+/* Estilos para los encabezados <h2> */
+h2{
+    margin: 20px; /* Margen de 20px en todos los lados */
+}
+
+/* Estilos para los párrafos <p> */
+p{
+    margin: 50px; /* Margen de 50px en todos los lados */
+}
+
+/* Estilos para formularios */
+form{
+    /* Agrega un margen a la izquierda de los formularios */
+    margin-left: 20px;
+}
+
+/* Estilos para el elemento <body> */
+body{
+    /* Establece la imagen de fondo */
+    background-image: url(../imagenes/img-fondo.jpg); 
+    /* Usa la fuente 'cuerpo' */
+    font-family: 'cuerpo';
+    /* Establece el color del texto a #E33B1A */
+    color: #C86623;
+    /* Establece el tamaño de la fuente a 18px */
+    font-size: 20px;
+    display: flex; /* Utiliza el modelo de diseño flexbox */
+    flex-direction: column; /* Establece la dirección de los elementos hijos como columna */
+    min-height: 100vh /* Establece la altura mínima del cuerpo al 100% de la altura del viewport */
+}
+
+main {
+    flex: 1; /* Esto permite que el contenido principal ocupe el espacio restante */
+}
+
+footer {
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}
+
+/* Estilo para la navegación del sitio. */
+   nav {
+    display: inline-block; /* Se muestra como un bloque en línea para que ocupe solo el espacio necesario. */
+    margin: 15px 0px 0px 0px;/* Se establece un margen de 15px en la parte superior para separarlo del contenido superior. */
+    padding: 0;/* No se aplica ningún relleno para evitar espacios no deseados dentro del elemento <nav>. */
+}
+
+
+/* Estilos para los elementos de lista en el menú de navegación */
+nav ul li{
+    /* Elimina los estilos de lista (como viñetas o números) */
+    list-style: none;
+    /* Muestra los elementos de lista en línea */
+    display: inline;
+    /* Añade un espacio entre los elementos de lista */
+    margin-right: 25px;
+}
+
+/* Estilos para las imágenes dentro de enlaces en el encabezado */
+header a img{
+    /* Establece el ancho de la imagen a 50px */
+    width: 50px;    
+    /* Establece la altura de la imagen a 50px */
+    height: 50px;
+}
+
+/* Estilos para las imágenes dentro de enlaces en los artículos */
+article a img{
+    /* Establece el ancho de la imagen a 200px */
+    width: 200px;
+    /* Establece la altura de la imagen a 200px */
+    height: 200px;
+    /* Añade un margen de 50px alrededor de la imagen */
+    margin: 50px;
+}
+
+/* Estilos para elementos con la clase .muestra */
+.muestra{
+    /* Establece el ancho del elemento a 450px */
+    width: 450px;
+    /* Establece la altura del elemento a 400px */
+    height: 400px;
+    margin: 50px; /* Margen de 50px en todos los lados */
+}
+
+/* Estilos para enlaces dentro de elementos de lista, celdas de tabla y parrafo*/
+li a,
+td a,
+p a{
+    /* Cambia el color del texto del enlace a #734C78 */
+    color: #734C78;
+    /* Quita la decoración de subrayado predeterminada */
+    text-decoration: none;
+}
+
+/* Estilos cuando el cursor está sobre un enlace */
+a:hover{
+    /* Subraya el enlace cuando el cursor está encima */
+    text-decoration: underline;
+}
