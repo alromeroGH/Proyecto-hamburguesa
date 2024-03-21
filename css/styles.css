@@ -56,7 +56,7 @@ h2{
 
 /* Estilos para los párrafos <p> */
 p{
-    margin: 50px; /* Margen de 50px en todos los lados */
+    margin: 0px 0px 50px 50px; /* Margen superior, derecho, inferior, izquierdo */
 }
 
 /* Estilos para formularios */
@@ -112,6 +112,10 @@ header a img{
     width: 50px;    
     /* Establece la altura de la imagen a 50px */
     height: 50px;
+}
+
+.lista li{
+    margin-left: 50px;
 }
 
 /* Estilos para las imágenes dentro de enlaces en los artículos */
