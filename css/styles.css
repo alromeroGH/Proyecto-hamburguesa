@@ -72,7 +72,7 @@ body{
     /* Usa la fuente 'cuerpo' */
     font-family: 'cuerpo';
     /* Establece el color del texto a #E33B1A */
-    color: #C86623;
+    color: #F2B26E;
     /* Establece el tamaño de la fuente a 18px */
     font-size: 20px;
     display: flex; /* Utiliza el modelo de diseño flexbox */
@@ -86,6 +86,23 @@ main {
 
 footer {
     margin-top: auto; /* Empuja el footer hacia abajo */
+    display: flex;
+    background-color: #DD1C2D;
+}
+
+.container ul li{
+    display: inline;
+    padding-inline: 10px;
+    justify-content: space-between;
+}
+
+.container ul li a img{
+    width: 15px;
+    height: 15px;
+}
+
+.item1{
+    margin-right: 90px;
 }
 
 /* Estilo para la navegación del sitio. */
