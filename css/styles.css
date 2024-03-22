@@ -84,26 +84,31 @@ main {
     flex: 1; /* Esto permite que el contenido principal ocupe el espacio restante */
 }
 
+/* Estilos para el footer */
 footer {
-    margin-top: auto; /* Empuja el footer hacia abajo */
-    display: flex;
-    background-color: #DD1C2D;
+    margin-top: auto; /* Empuja el footer hacia abajo */ 
+    display: flex; /* Utiliza un diseño flexible para organizar los elementos secundarios del footer */
+    background-color: #DD1C2D; /* Establece el color de fondo del footer */
 }
 
-.container ul li{
-    display: inline;
-    padding-inline: 10px;
-    justify-content: space-between;
+/* Estilos para los elementos de lista dentro del contenedor */
+.container ul li {
+    display: inline; /* Establece los elementos de lista en línea para que estén uno al lado del otro */
+    padding-inline: 10px; /* Añade un relleno horizontal de 10px a los elementos de lista */
+    justify-content: space-between; /* Distribuye uniformemente el espacio entre los elementos de lista */
 }
 
-.container ul li a img{
-    width: 15px;
-    height: 15px;
+/* Estilos para las imágenes dentro de los enlaces de lista */
+.container ul li a img {
+    width: 15px; /* Establece el ancho de las imágenes en 15px */
+    height: 15px; /* Establece la altura de las imágenes en 15px */
 }
 
-.item1{
-    margin-right: 90px;
+/* Estilos específicos para el primer elemento de lista */
+.item1 {
+    margin-right: 90px; /* Establece un margen derecho de 90px para el primer elemento de lista */
 }
+
 
 /* Estilo para la navegación del sitio. */
    nav {
@@ -131,8 +136,9 @@ header a img{
     height: 50px;
 }
 
-.lista li{
-    margin-left: 50px;
+/* Estilos para los elementos de lista dentro de un contenedor con la clase "lista" */
+.lista li {
+    margin-left: 50px; /* Establece un margen izquierdo de 50px para los elementos de lista dentro de este contenedor */
 }
 
 /* Estilos para las imágenes dentro de enlaces en los artículos */
