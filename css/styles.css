@@ -169,9 +169,10 @@ a:hover {
     }
     p{
         margin: 1%;
+        padding: 1%;
     }
     .container ul li a img {
-        width: 13px;
-        height: 13px;
+        width: 15px;
+        height: 15px;
     }
 }
