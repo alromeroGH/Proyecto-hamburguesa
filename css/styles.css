@@ -29,6 +29,12 @@
         display: flex;
         justify-content: space-between;
     }    
+    
+    /* Imágenes en los enlaces de la lista */
+    .container ul li a img {
+        width: 15px;
+        height: 15px;
+    }
 }
 
 /* Encabezados */
@@ -79,12 +85,6 @@ footer {
     display: inline;
     padding-inline: 10px;
     justify-content: space-between;
-}
-
-/* Imágenes en los enlaces de la lista */
-.container ul li a img {
-    width: 15px;
-    height: 15px;
 }
 
 /* Estilos específicos del primer elemento de la lista */
@@ -163,9 +163,9 @@ a:hover {
         width: 100%;
     }
     .muestra{
-        width: 400px;
-        height: 450px;
-        margin: 30px;
+        width: 300px;
+        height: 250px;
+        margin: 20px;
     }
     p{
         margin: 1%;
