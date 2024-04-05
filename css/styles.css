@@ -157,7 +157,7 @@ a:hover {
         justify-content: center;
         background-color: #3c344855;
     }
-    div a{
+    .arriba{
         display: flex;
         justify-content: center;
         width: 100%;
@@ -169,5 +169,9 @@ a:hover {
     }
     p{
         margin: 1%;
+    }
+    .container ul li a img {
+        width: 13px;
+        height: 13px;
     }
 }
