@@ -29,12 +29,6 @@
         display: flex;
         justify-content: space-between;
     }    
-    
-    /* Imágenes en los enlaces de la lista */
-    .container ul li a img {
-        width: 15px;
-        height: 15px;
-    }
 }
 
 /* Encabezados */
@@ -139,6 +133,12 @@ p a {
     text-decoration: none;
 }
 
+/* Imágenes en los enlaces de la lista */
+.container ul li a img {
+    width: 15px;
+    height: 15px;
+}
+
 /* Estilos al pasar el cursor sobre los enlaces */
 a:hover {
     text-decoration: underline;
@@ -170,9 +170,5 @@ a:hover {
     p{
         margin: 1%;
         padding: 1%;
-    }
-    .container ul li a img {
-        width: 15px;
-        height: 15px;
     }
 }
