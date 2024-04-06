@@ -31,6 +31,22 @@
     }    
 }
 
+/* botón login */
+.btn{
+    font-weight: 600;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 70px;
+    background-color: #e4b320;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    color: #734C78;
+    transform: scale(1.2,1.2);
+}
+
 /* Encabezados */
 h1 {
     font-family: 'titulos';
